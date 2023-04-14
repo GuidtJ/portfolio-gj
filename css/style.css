@@ -76,7 +76,7 @@ body{
 }
 
 .home-img img{
-    width: 35vw;
+    width: 30vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -292,6 +292,7 @@ span{
     height: 5rem;
     background: var(--text-color);
     border-radius: 50%;
+    
 }
 
 .portfolio-layer a i{
