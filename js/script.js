@@ -61,3 +61,17 @@ const typed = new Typed('.multiple-text', {
     loop: true
 
 });
+
+// ---------------------------Timer--------------------------------//
+function heure() {
+    var date = new Date(); 
+    var heures = date.getHours();
+    var minutes = date.getMinutes();
+
+    heures = heures < 10 ? "0" + heures : heures;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+
+    document.getElementById("horloge").innerHTML =  + heures + ":" + minutes;
+
+  }
+  setInterval(heure, 1000);

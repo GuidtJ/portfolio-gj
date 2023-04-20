@@ -52,6 +52,16 @@ body{
     font-weight: 600;
     cursor: default;
 }
+
+#horloge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 25px;
+    color: #FFF8EB;
+    text-align: center;
+}
+
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);

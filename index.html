@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,20 +15,21 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-
+        <div id="horloge"> France </div>
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active" >Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">A propos</a>
             <a href="#services">Connaissance</a>
             <a href="#portfolio">Portfolio</a>
             <a href="mailto:jeromeguidt@hotmail.fr">Contact</a>
-            
+
         </nav>
 
     </header>
@@ -38,127 +40,145 @@
             <h3>Bonjour, Je suis</h3>
             <h1>Jérôme Guidt</h1>
             <h3>Et je suis en Formation <span class="multiple-text"></span></h3>
-            <p> J'ai toujours été fasciné par les technologies de l'information et l'informatique en général, et je suis ravi de faire de ma passion mon métier.
-                </p>
-                <div class="social-media">
-                    <a href="https://github.com/GuidtJ" target="_blank" title="GitHub"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-guidt-3b915725a/" target="_blank" title="Linkedin"><i class='bx bxl-linkedin-square' ></i></a>
-                </div>
-                <a href="./pdf/Guidt Jérôme.pdf.pdf" target="_blank" class="btn">Télécharger CV</a>
+            <p> J'ai toujours été fasciné par les technologies de l'information et l'informatique en général, et je suis
+                ravi de faire de ma passion mon métier.
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/GuidtJ" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/j%C3%A9r%C3%B4me-guidt-3b915725a/" target="_blank"
+                    title="Linkedin"><i class='bx bxl-linkedin-square'></i></a>
             </div>
-            <div class="home-img">
-                <img src="img/profilBleu.png" alt="Jérôme">
+            <a href="./pdf/Guidt Jérôme.pdf.pdf" target="_blank" class="btn">Télécharger CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/profilBleu.png" alt="Jérôme">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-me">
+            <img src="img/profilNoirPetit2-removebg-preview.png" alt="Jérôme">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">A propos de <span>Moi</span></h2>
+            <h3>Developpeur Web!</h3>
+            <p>Je suis à la recherche d'un stage qui me permettra de développer mes compétences et de les mettre en
+                pratique dans un environnement professionnel. Je suis disponible de mai à août 2023 et je suis prêt à
+                travailler dur pour apprendre le plus possible et contribuer positivement à l'équipe.</p>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Mes <span>Connaissance</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-figma' title="FIGMA"></i>
+                <h3>Maquettage</h3>
+                <p>J'ai utilisé Figma pour réaliser des maquettes pour les formats PC, tablette et mobile, afin de
+                    m'assurer que l'interface utilisateur soit adaptée à tous les types d'appareils et offrir une
+                    expérience utilisateur optimale.</p>
             </div>
-        </section>
 
-        <!-- about section design -->
-        <section class="about" id="about">
-            <div class="about-me">
-                <img src="img/profilNoirPetit2-removebg-preview.png" alt="Jérôme">
+            <div class="services-box">
+                <i class='bx bxl-html5' title="HTML"></i>
+                <i class='bx bxl-css3' title="CSS"></i>
+                <i class='bx bxl-javascript' title="Javascript"></i>
+                <i class='bx bxl-bootstrap' title="Bootstrap"></i>
+                <h3>Front-End</h3>
+                <p>J'ai conçu l'interface utilisateur du site web avec des compétences en front-end pour garantir un
+                    design optimisé et responsive sur tous les appareils, assurant ainsi une expérience utilisateur
+                    fluide et cohérente.</p>
             </div>
 
-            <div class="about-content">
-                <h2 class="heading">A propos de <span>Moi</span></h2>
-                <h3>Developpeur Web!</h3>
-                <p>Je suis à la recherche d'un stage qui me permettra de développer mes compétences et de les mettre en pratique dans un environnement professionnel. Je suis disponible de mai à août 2023 et je suis prêt à travailler dur pour apprendre le plus possible et contribuer positivement à l'équipe.</p>
+            <div class="services-box">
+                <i class='bx bxl-php' title="PHP"></i>
+                <h3>Back-End</h3>
+                <p>J'ai utilisé PHP pour développer les fonctionnalités et la logique du site web, ainsi que MySQL pour
+                    la gestion de la base de données, garantissant ainsi une expérience utilisateur optimale.</p>
             </div>
-        </section>
 
-        <!-- services section design -->
-        <section class="services" id="services">
-            <h2 class="heading">Mes <span>Connaissance</span></h2>
+            <div class="services-box">
+                <i class="fa-brands fa-symfony"></i>
+                <h3>Framework</h3>
+                <p>J'aime utiliser Symfony car c'est un framework Open Source vraiment fiable et stable, de part, les
+                    process qui ont été mis en place autour de la contribution au code. Sa politique de releases et de
+                    support ainsi que sa documentation.<br><br></p>
+            </div>
 
-            <div class="services-container">
-                <div class="services-box">
-                    <i class='bx bxl-figma' title="FIGMA"></i>
-                    <h3>Maquettage</h3>
-                    <p>J'ai utilisé Figma pour réaliser des maquettes pour les formats PC, tablette et mobile, afin de m'assurer que l'interface utilisateur soit adaptée à tous les types d'appareils et offrir une expérience utilisateur optimale.</p>
-                </div>
+            <div class="services-box">
+                <i class='bx bxs-data' title="SQL"></i>
+                <h3>Bases de Données</h3>
+                <p>J'ai utilisé mes compétences en back-end pour développer les fonctionnalités et la logique du site
+                    web, en veillant à ce que l'expérience utilisateur soit optimale et sécurisée. Cela inclut la
+                    conception de la base de données, la mise en place des serveurs et des API, ainsi que la gestion de
+                    la sécurité des données.</p>
+            </div>
+        </div>
+    </section>
 
-                <div class="services-box">
-                    <i class='bx bxl-html5' title="HTML" ></i>
-                    <i class='bx bxl-css3' title="CSS" ></i>
-                    <i class='bx bxl-javascript' title="Javascript"></i>
-                    <i class='bx bxl-bootstrap' title="Bootstrap" ></i>
-                    <h3>Front-End</h3>
-                    <p>J'ai conçu l'interface utilisateur du site web avec des compétences en front-end pour garantir un design optimisé et responsive sur tous les appareils, assurant ainsi une expérience utilisateur fluide et cohérente.</p>
-                </div>
+    <!-- portofolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Dernier <span>Projet</span></h2>
 
-                <div class="services-box">
-                    <i class='bx bxl-php' title="PHP"></i>
-                    <h3>Back-End</h3>
-                    <p>J'ai utilisé PHP pour développer les fonctionnalités et la logique du site web, ainsi que MySQL pour la gestion de la base de données, garantissant ainsi une expérience utilisateur optimale.</p>
-                </div>
-
-                <div class="services-box">
-                    <i class="fa-brands fa-symfony"></i>
-                    <h3>Framework</h3>
-                    <p>J'aime utiliser Symfony car c'est un framework Open Source vraiment fiable et stable, de part, les process qui ont été mis en place autour de la contribution au code. Sa politique de releases et de support ainsi que sa documentation.<br><br></p>
-                </div>
-
-                <div class="services-box">
-                    <i class='bx bxs-data' title="SQL"></i>
-                    <h3>Bases de Données</h3>
-                    <p>J'ai utilisé mes compétences en back-end pour développer les fonctionnalités et la logique du site web, en veillant à ce que l'expérience utilisateur soit optimale et sécurisée. Cela inclut la conception de la base de données, la mise en place des serveurs et des API, ainsi que la gestion de la sécurité des données.</p>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./img/carteFrance.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>French Map</h4>
+                    <p><strong>Mini-jeux en Javascript | Trouver les bonnes régions</strong></p>
+                    <a href="https://guidtj.github.io/French-Maps/" target="_blank" title="lien du site"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
-        </section>
 
-        <!-- portofolio section design -->
-        <section class="portfolio" id="portfolio">
-            <h2 class="heading">Dernier <span>Projet</span></h2>
-
-            <div class="portfolio-container">
-                <div class="portfolio-box">
-                    <img src="./img/carteFrance.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4>French Map</h4>
-                        <p><strong>Mini-jeux en Javascript | Trouver les bonnes régions</strong></p>
-                        <a href="https://guidtj.github.io/French-Maps/" target="_blank" title="lien du site"><i class='bx bx-link-external'></i></a>
-                    </div>
+            <div class="portfolio-box">
+                <img src="./img/pexels-sevenstorm-juhaszimrus-704767 (1)redimension.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Mystery Number</h4>
+                    <p><strong>Mini-jeux en Javascript | Trouver le numéro mystère</strong></p>
+                    <a href="https://guidtj.github.io/Mystery-Number-2023/" target="_blank" title="lien du site"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
-
-                <div class="portfolio-box">
-                    <img src="./img/pexels-sevenstorm-juhaszimrus-704767 (1)redimension.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Mystery Number</h4>
-                        <p><strong>Mini-jeux en Javascript | Trouver le numéro mystère</strong></p>
-                        <a href="https://guidtj.github.io/Mystery-Number-2023/" target="_blank" title="lien du site"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="./img/medikit.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Survivalisme</h4>
-                        <p><strong>Site vitrine | utilisation: Html/Css/Bootstrap</strong></p>
-                        <a href="https://guidtj.github.io/Survivalisme/" target="_blank" title="lien du site"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="./img/voyage1.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4>Agence de voyage</h4>
-                        <p><strong>Site vitrine | utilisation: Html/Css/Bootstrap<strong></p>
-                        <a href="https://guidtj.github.io/Agence-de-Voyage/" target="_blank" title="lien du site"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
-                <div class="portfolio-box">
-                    <img src="./img/projet-en-cours-.jpg" alt="">
-                    <div class="portfolio-layer">
-                        <h4></h4>
-                        <p><strong><strong></p>
-                        <a href="#" target="_blank" title="lien du site"><i class='bx bx-link-external'></i></a>
-                    </div>
-                </div>
-
             </div>
-        </section>
 
-        <!-- contact section design -->
-        <!-- <section class="contact" id="contact">
+            <div class="portfolio-box">
+                <img src="./img/medikit.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Survivalisme</h4>
+                    <p><strong>Site vitrine | utilisation: Html/Css/Bootstrap</strong></p>
+                    <a href="https://guidtj.github.io/Survivalisme/" target="_blank" title="lien du site"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/voyage1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Agence de voyage</h4>
+                    <p><strong>Site vitrine | utilisation: Html/Css/Bootstrap<strong></p>
+                    <a href="https://guidtj.github.io/Agence-de-Voyage/" target="_blank" title="lien du site"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./img/projet-en-cours-.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4></h4>
+                    <p><strong><strong></p>
+                    <a href="#" target="_blank" title="lien du site"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <!-- <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me!</span></h2>
 
             <form action="#">
@@ -175,16 +195,16 @@
             </form>
         </section> -->
 
-        <!-- footer design -->
-        <footer class="footer">
-            <div class="footer-text">
-                <p>Copyright &copy; 2023 by Guidt Jérôme | All Rights Reserved.</p>
-            </div>
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Guidt Jérôme | All Rights Reserved.</p>
+        </div>
 
-            <div class="footer-iconTop">
-                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
-            </div>
-        </footer>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
 
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
@@ -194,6 +214,8 @@
 
 
     <!-- custom js -->
-    <script src="./js/script.js" ></script>
+    <script src="./js/script.js"></script>
+
 </body>
+
 </html>
